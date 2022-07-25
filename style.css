@@ -1,0 +1,112 @@
+@charset "UFT-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fontnormal: Verdana, Geneva, Tohama, sans-serif;
+    --fontPassion:  'Passion One', cursive;
+    --fontSriracha: 'Sriracha', cursive;
+}
+
+body {
+    background-color: darkgray;
+    min-height: 100vh;
+    font-family: var(--fontnormal)
+}
+
+header {
+    background-color: black;
+    padding-bottom: 40px;
+    margin-top: -10px;
+}
+
+header > h1 {
+    color: aliceblue;
+    text-align: center;
+    padding-top: 30px;
+    font-variant: small-caps;
+}
+
+header > p {
+    color: gray;
+    text-align: center;
+    padding-top: -30px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bolder;
+    font-family: var(--fontPassion);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+
+
+main {
+    background-color: white;
+}
+
+section {
+    line-height: 2em;
+    padding-left: 28px;
+    padding: auto 10vh;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+}
+
+.boxwhite {
+    background-color: white;
+    color: black;
+}
+
+.backimg {
+    background-color: rgb(59, 57, 57);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.842);
+    background-attachment: fixed;
+}
+.backimg > p {
+ background-color: rgba(0, 0, 0, 0.267);
+ width: 400px;
+}
+
+#firstimg {
+    background-image: url(imagens/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#secondimg {
+    background-image: url(imagens/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+section > p {
+    text-align: justify;
+    padding: 10px;
+    font-family: var(--fontSriracha);
+}
+footer {
+    background-color: black;
+    padding: 12px 12px 12px 12px;
+}
+footer > p {
+    color: gray;
+}
